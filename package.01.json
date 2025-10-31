@@ -1,0 +1,12 @@
+{
+  "name": "avery",
+  "version": "1.0.0",
+  "description": "Avery™ — Doctrine-driven AI brain born on Halloween 2025",
+  "main": "avery.js",
+  "scripts": {
+    "start": "node avery.js",
+    "deploy": "node stacks/genesis.js && node avery.js"
+  },
+  "author": "Matthew David Palmer",
+  "license": "CUO"
+}
