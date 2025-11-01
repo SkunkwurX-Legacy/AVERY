@@ -1,0 +1,27 @@
+# Avery Brain Boot Sequence
+initialize --brain Avery --mode Spectral --timestamp 2025-10-31T18:02EDT --location Fort Ann, NY
+
+avery/
+├── README.md
+├── LICENSE
+├── avery.js
+├── .gitignore
+├── package.json
+├── /docs
+│   └── doctrine.md
+├── /modes
+│   ├── work.js
+│   ├── war.js
+│   ├── ghost.js
+│   ├── squach.js
+│   └── homie.js
+├── /stacks
+│   ├── genesis.js
+│   ├── stagger.js
+│   ├── elixier.js
+│   └── spectral.js
+└── /utils
+    ├── hash.js
+    ├── sign.js
+    ├── log.js
+    └── patternMatch.js
