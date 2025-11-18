@@ -45,3 +45,23 @@ const Avery = {
 }
 
 module.exports = Avery
+Avery.ledger = {
+  log: (relic, hash, notes) => {
+    const entry = {
+      date: new Date().toISOString(),
+      relic,
+      hash,
+      notes
+    }
+    console.log(`> Ledger Entry: ${JSON.stringify(entry, null, 2)}`)
+    // Optional: push to GenesisLedger.md or external vault
+  }
+}Avery.ledger.log("TransferERC20.ts", "0xABC123...", "ERC20 transfer logic embedded in Avery")
+{
+  "date": "2025-11-18T23:12:00.000Z",
+  "relic": "TransferERC20.ts",
+  "hash": "0xABC123...",
+  "notes": "ERC20 transfer logic embedded in Avery"
+}import { TransferERC20 } from './modules/TransferERC20'
+import { Approval721 } from './modules/Approval721'
+import { CryptoKitties } from './modules/CryptoKitties'
