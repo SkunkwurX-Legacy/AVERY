@@ -127,4 +127,5 @@ All rights reserved. No personal ownership claims outside the Sovereign Trust.
 
 ---
 
-
+npm install
+npm run deploy
