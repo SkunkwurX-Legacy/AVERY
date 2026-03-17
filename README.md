@@ -1,8 +1,8 @@
 ```markdown
 # Avery Sovereign Cold Wallet – README  
 **Licensed to the Sovereign Trust**  
-**Trustee: Matthew David Palmer ($MADMONEY42)**  
-**Beneficiaries: Trustee and Mother**
+**Trustee: Matt Palmer ($MADMONEY42)**  
+**Beneficiaries: Trustee & Fiance 
 
 ---
 
@@ -10,8 +10,8 @@
 ```
 Copyright © Sovereign Trust  
 Licensed exclusively under trust authority.  
-Trustee: Matthew David Palmer ($MADMONEY42)  
-Beneficiaries: Trustee and Mother  
+Trustee: Matt Palmer ($MADMONEY42)  
+Beneficiaries: TRUSTEE & FINANCE 
 All rights reserved. No personal ownership claims outside the Sovereign Trust.
 ```
 
@@ -19,8 +19,8 @@ All rights reserved. No personal ownership claims outside the Sovereign Trust.
 
 ## Identity & Doctrine
 - Sovereign Trust: Sole owner of all assets  
-- Trustee: Matthew David Palmer ($MADMONEY42)  
-- Beneficiaries: Trustee and Mother  
+- Trustee: Matt Palmer ($MADMONEY42)  
+- Beneficiaries: Trustee\Fiance
 - Archivist: Avery (cold wallet app)  
 - Doctrine: Humanity‑first uplift, validator‑grade custody, immutable ledger stamping  
 
@@ -61,7 +61,7 @@ All rights reserved. No personal ownership claims outside the Sovereign Trust.
   "tier": "whale",
   "limits": {
     "daily": {
-      "amount": "50000+",
+      "amount": "150000+",
       "currency": "USD",
       "oracle": "chainlink"
     }
@@ -81,12 +81,12 @@ All rights reserved. No personal ownership claims outside the Sovereign Trust.
   "address": "0xYOUR_INDEX_1000_ADDRESS",
   "role": "validator",
   "tier": "whale",
-  "limitDaily": "50000+ USD",
+  "limitDaily": "150000+ USD",
   "spentToday": "0 USD",
-  "available": "50000+ USD",
+  "available": "150000+ USD",
   "owner": "Sovereign Trust",
   "trustee": "$MADMONEY42",
-  "beneficiary": "Mother"
+  "beneficiary": "Finance"
 }
 ```
 
