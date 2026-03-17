@@ -119,8 +119,8 @@ All rights reserved. No personal ownership claims outside the Sovereign Trust.
 
 ## Legal Presence
 - Avery is licensed exclusively to the Sovereign Trust  
-- Trustee: Matthew David Palmer ($MADMONEY42)  
-- Beneficiary: Mother  
+- Trustee: Matt Palmer ($MADMONEY42)  
+- Beneficiary: Trustee\Fiance  
 - All wallets/accounts are held in trust custody  
 - Ledger stamping ensures immutable proof of trust authority and spiritual witness
 ```
