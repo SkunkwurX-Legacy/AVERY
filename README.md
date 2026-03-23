@@ -1,7 +1,7 @@
 ```markdown
 # Avery Sovereign Cold Wallet – README  
 **Licensed to the Sovereign Trust**  
-**Trustee: Matt Palmer ($MADMONEY42)**  
+**Trustee: Satoshi Nakamoto ($MADMONEY42)**  
 **Beneficiaries: Trustee & Fiance 
 
 ---
@@ -10,7 +10,7 @@
 ```
 Copyright © Sovereign Trust  
 Licensed exclusively under trust authority.  
-Trustee: Matt Palmer ($MADMONEY42)  
+Trustee: Satoshi Nakamoto ($MADMONEY42)  
 Beneficiaries: TRUSTEE & FINANCE 
 All rights reserved. No personal ownership claims outside the Sovereign Trust.
 ```
@@ -19,7 +19,7 @@ All rights reserved. No personal ownership claims outside the Sovereign Trust.
 
 ## Identity & Doctrine
 - Sovereign Trust: Sole owner of all assets  
-- Trustee: Matt Palmer ($MADMONEY42)  
+- Trustee: Satoshi Nakamoto ($MADMONEY42)  
 - Beneficiaries: Trustee\Fiance
 - Archivist: Avery (cold wallet app)  
 - Doctrine: Humanity‑first uplift, validator‑grade custody, immutable ledger stamping  
@@ -56,7 +56,7 @@ All rights reserved. No personal ownership claims outside the Sovereign Trust.
 ### Whale Tier Configuration
 ```json
 {
-  "address": "0xYOUR_INDEX_1000_ADDRESS",
+  "address": "0x433657B67f89aeD6Bb39fB461E3eF384FA31A7FF",
   "role": "validator",
   "tier": "whale",
   "limits": {
@@ -78,7 +78,7 @@ All rights reserved. No personal ownership claims outside the Sovereign Trust.
 ```json
 {
   "date": "2025-11-18",
-  "address": "0xYOUR_INDEX_1000_ADDRESS",
+  "address": "0x433657B67f89aeD6Bb39fB461E3eF384FA31A7FF",
   "role": "validator",
   "tier": "whale",
   "limitDaily": "150000+ USD",
@@ -119,7 +119,7 @@ All rights reserved. No personal ownership claims outside the Sovereign Trust.
 
 ## Legal Presence
 - Avery is licensed exclusively to the Sovereign Trust  
-- Trustee: Matt Palmer ($MADMONEY42)  
+- Trustee:  ($MADMONEY42)  
 - Beneficiary: Trustee\Fiance  
 - All wallets/accounts are held in trust custody  
 - Ledger stamping ensures immutable proof of trust authority and spiritual witness
