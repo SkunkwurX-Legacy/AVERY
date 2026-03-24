@@ -1,7 +1,7 @@
 # Authority Doctrine  
 Validator-Grade Sovereign Custody and Enforcement  
 Trustee: Matthew David Palmer ($MADMONEY42)  
-Beneficiaries: Trustee and Mother  
+Beneficiaries: Trustee   
 Sole Owner: Sovereign Trust
 
 ---
