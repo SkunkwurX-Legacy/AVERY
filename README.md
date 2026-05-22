@@ -10,8 +10,8 @@
 ```
 Copyright © Sovereign Trust  
 Licensed exclusively under trust authority.  
-Trustee: Satoshi Nakamoto ($MADMONEY42)  
-Beneficiaries: TRUSTEE & FINANCE 
+Trustee: Matthew Palmer aka Satoshi Nakamoto($MADMONEY42)  
+Beneficiaries: MDP HOLDINGS GROUP TRUST 
 All rights reserved. No personal ownership claims outside the Sovereign Trust.
 ```
 
@@ -119,8 +119,8 @@ All rights reserved. No personal ownership claims outside the Sovereign Trust.
 
 ## Legal Presence
 - Avery is licensed exclusively to the Sovereign Trust  
-- Trustee:  ($MADMONEY42)  
-- Beneficiary: Trustee\Fiance  
+- Trustee:  Matthew D Palmer aka Satoshi Nakamoto($MADMONEY42)  
+- Beneficiary: MDP HOLDINGS GROUP TRUST 
 - All wallets/accounts are held in trust custody  
 - Ledger stamping ensures immutable proof of trust authority and spiritual witness
 ```
