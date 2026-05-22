@@ -1,8 +1,8 @@
 ```markdown
 # Avery Sovereign Cold Wallet – README  
 **Licensed to the Sovereign Trust**  
-**Trustee: Satoshi Nakamoto ($MADMONEY42)**  
-**Beneficiaries: Trustee & Fiance 
+**Trustee: Matthew David Palmer aka Satoshi Nakamoto ($MADMONEY42)**  
+**Beneficiaries: MDP HOLDINGS GROUP TRUST 
 
 ---
 
@@ -19,8 +19,8 @@ All rights reserved. No personal ownership claims outside the Sovereign Trust.
 
 ## Identity & Doctrine
 - Sovereign Trust: Sole owner of all assets  
-- Trustee: Satoshi Nakamoto ($MADMONEY42)  
-- Beneficiaries: Trustee\Fiance
+- Trustee: Matthew David Palmer aka Satoshi Nakamoto ($MADMONEY42)  
+- Beneficiaries: MDP HOLDINGS GROUP TRUST
 - Archivist: Avery (cold wallet app)  
 - Doctrine: Humanity‑first uplift, validator‑grade custody, immutable ledger stamping  
 
