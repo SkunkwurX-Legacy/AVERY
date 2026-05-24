@@ -2,7 +2,7 @@
 Validator-Grade, Military-Grade, Sovereign-Sealed  
 Licensed to the Sovereign Trust  
 Trustee: Matthew David Palmer ($MADMONEY42)  
-Beneficiaries: Trustee and Mother
+Beneficiaries: MDP HOLDINGS REV.TRUST
 
 ---
 
