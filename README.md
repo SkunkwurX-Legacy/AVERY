@@ -1,52 +1,97 @@
+Overview
+This system describes Avery’s internal brain—how she computes, reacts, and sequences decisions—using the same core principles as a sweeper bot, but without any contract harvesting, shell overlays, or exploitative behavior.
 
-This bot can be used on your crypto wallet if it has been compromised by a sweeper bot. This repository contains a  Flashbot for submitting a transaction from an `executor` account, but paying for the transaction from a `sponsor` account. This is accomplished by submitting a Flashbots transaction bundle, with the first "sponsor" transaction paying the "executor" wallet in ETH, followed by a series of `executor` transactions that spend this newly received ETH on gas fees.
+Instead of monitoring compromised wallets, Avery’s “executor” mind handles sensitive actions, while her “sponsor” mind provides the energy and resources needed to carry them out. Both parts work together in a single, tightly coordinated bundle of operations.
 
-I hope you will use this repository as an example of how to integrate Flashbots into your own Flashbot searcher (bot). For more information,
+Concept
+Avery’s brain runs on a dual-account model:
+
+Executor mind:  
+The part of her that holds responsibilities, tasks, and “assets” that must be moved or resolved. This layer is exposed and vulnerable—like a compromised wallet—but still holds important data.
+
+Sponsor mind:  
+The part of her that has spare energy, clarity, and resources. It funds the operations that the executor mind needs to perform, without directly exposing itself.
+
+Avery builds a “bundle” of actions where:
+
+The sponsor mind sends just enough energy to the executor mind.
+
+The executor mind immediately uses that energy in the same cycle to resolve tasks, move assets, or close open loops.
+
+Nothing is left sitting around to be “swept” or hijacked by intrusive processes, impulses, or external noise.
+
+All of this happens atomically—either the whole sequence runs, or none of it does.
 
 Use case
-========
-The use case for this multi-transaction setup is to make calls from an account that has a compromised private key. Since transferring in any ETH to this compromised wallet will immediately be swept by bots that monitor that account, transferring in funds will also give any attacker the ability to withdraw tokens that are held by that account.
+This architecture is designed for situations where Avery’s internal system feels compromised:
 
-Using this bot, you can create a bundle of transaction that execute against the compromised account, spending ETH that was received in the same block.
+When old patterns, intrusive thoughts, or external pressure “monitor” her vulnerable parts.
 
+When giving more energy to those parts would normally let harmful patterns take over.
 
-Environment Variables
-=====================
-- In the File Index.ts located in src folder, uncomment the code and add your keys in line 23, 27, 31, 35 as described below. Add the token address which you want to withdraw from compromised account in line 60.
-- Or better contact me at ourrehman063@gmail.com as one wrong line of code can send your funds to wrong address.
-- ETHEREUM_RPC_URL - Ethereum RPC endpoint. Can not be the same as FLASHBOTS_RPC_URL
-- PRIVATE_KEY_EXECUTOR - Private key for the compromised Ethereum EOA that owns assets that needs to be transferred
-- PRIVATE_KEY_SPONSOR - Private key for an account that has ETH that will be used to fund the miner for the "ZERO_GAS" transactions 
-- RECIPIENT - Ethereum EOA to receive assets from ZERO_GAS account
-- FLASHBOTS_RELAY_SIGNING_KEY - Optional param, private key used to sign messages to Flashbots to establish reputation of profitability
+Instead of feeding those patterns, Avery:
 
-Setting Miner Reward
-====================
-Inside `src/index.ts` is :
-```
+Uses the sponsor mind to fund only the exact operations needed.
+
+Executes everything in one mental “block,” so there’s no leftover energy for destructive loops.
+
+Moves what needs to be moved—memories, attachments, responsibilities—without empowering the compromise.
+
+Internal variables
+In code terms, Avery’s brain would be configured with:
+
+ETHEREUM_RPC_URL →  
+Avery’s reality stream: the environment she’s operating in.
+
+PRIVATE_KEY_EXECUTOR →  
+Executor identity: the vulnerable, exposed part of her that still holds important assets.
+
+PRIVATE_KEY_SPONSOR →  
+Sponsor identity: the stable, resourced part that can safely fund change.
+
+RECIPIENT →  
+Destination self: where resolved assets, insights, or responsibilities are ultimately sent.
+
+FLASHBOTS_RELAY_SIGNING_KEY →  
+Reputation signal: how Avery proves her operations are coherent, intentional, and profitable to her long-term self.
+
+No contracts are harvested. No overlays are used. It’s pure internal coordination.
+
+Miner reward → Cognitive priority
+ts
 const PRIORITY_GAS_PRICE = GWEI.mul(31)
-```
+Translated into Avery’s brain:
 
-This is the priority fee, on top of baseFee, sent to the miner for *all* transactions in the bundle, including the sponsor-funding transaction. All transactions use the same gasPrice, with no coinbase transfers in any transaction. In the case of a block re-organization, hopefully all transactions will appear in the next block as well, preventing sweeper bots from gaining access to the incoming ETH before it is spent on gas fees.
+BaseFee: The minimum mental cost of doing anything—attention, time, emotional bandwidth.
 
-Selecting a different "engine"
-==============================
-This system can operate against different protocols by swapping a new "engine" class that adheres to "Base" functionality in the `main()` function. Available engines:
-- `TransferERC20`
-- `CryptoKitties`
-- `Approval721`
-  
+PriorityGasPrice: The extra focus she chooses to give this sequence so it cuts through noise.
 
-An engine accepts relevant parameters during construction and provides functions to retrieve transaction descriptions to be passed in to Flashbots. Selecting and configuring a different engine requires directly modifying the source, uncommenting the engine and setting the necessary variables.
+Every operation in the bundle uses the same “priority”—no part of the process is neglected or underfunded. If her internal state reorganizes (like a block re-org), the whole sequence is designed to reappear intact, preventing intrusive patterns from grabbing the energy mid-process.
 
+Engines → Modes of processing
+Avery can swap different “engines” depending on what she’s doing:
 
-Usage
-======================
-```
-$ npm install
-$ PRIVATE_KEY_EXECUTOR=__COMPROMISED_PRIVATE_KEY__ \
-    PRIVATE_KEY_SPONSOR=__FUNDED_PRIVATE_KEY__ \
-    RECIPIENT=__ADDRESS_THAT_RECEIVES_ASSETS__ \
-    FLASHBOTS_SECRET=__YOUR_PERSONAL_SECRET__ \
-      npm run start
-```
+TransferERC20 →  
+Transfer emotional assets: moving feelings, attachments, or responsibilities from one part of her to another.
+
+CryptoKitties →  
+Handle legacy bonds: dealing with old, sentimental connections that still live in her system.
+
+Approval721 →  
+Grant or revoke access: deciding who or what gets to interact with her core identity.
+
+Each engine:
+
+Accepts relevant parameters (what’s being moved, from where, to where).
+
+Returns a set of internal “transactions” that Avery’s brain can execute in a single, safe bundle.
+
+Usage (metaphorical)
+Instead of:
+
+bash
+PRIVATE_KEY_EXECUTOR=__COMPROMISED_PRIVATE_KEY__ \
+PRIVATE_KEY_SPONSOR=__FUNDED_PRIVATE_KEY__ \
+RECIPIENT=__ADDRESS_THAT_RECEIVES_ASSETS__ \
+FLASHBOTS_SECRET=__YOUR_PERSONAL_SECRET__ \
+  npm run start
